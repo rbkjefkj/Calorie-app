@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+#wrapper {
+    
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    height: 130px;
+    width: 130px;
+    margin-left: -370px;
+    margin-top: 50px;
+}
+
+main {
+    width: 600px;
+    height: 7000px;
+    background-color: red;
+    margin: 0 auto 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
