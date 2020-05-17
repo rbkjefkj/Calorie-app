@@ -28,8 +28,7 @@
   color: #61dafb;
 }
 
-
-img {
+#arrow {
     position: absolute;
     height: 130px;
     width: 130px;
@@ -41,7 +40,6 @@ main {
     position: relative;
     width: 600px;
     height: 100vh;
-    background-color: #ccffcc;
     margin: 0 auto 0 auto;
     display: flex;
     flex-direction: column;
@@ -59,12 +57,19 @@ h1 { margin: 0 auto 0 auto; }
 
 .food-container {
   margin-top: 10px;
-  background-color: #ffff80;
-  height: 100px;
+  height: 300px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 } 
 
+#puffle {
+  width: auto;
+  height: 80%;
+  margin: 0 auto 0 auto;
+}  
 
+p { text-align: center; }
 
 
 
