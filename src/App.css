@@ -28,34 +28,12 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-#wrapper {
-    
-    display: flex;
-    flex-direction: row;
-}
-
-#img {
-    background: url('./yarrow.png');
-
 #arrow {
     position: absolute;
     height: 130px;
     width: 130px;
     margin-left: -370px;
     margin-top: 50px;
-}
-
-#img:hover {
-    background: url('./pink.png');
 }
 
 main {
