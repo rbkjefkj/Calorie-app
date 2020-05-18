@@ -28,6 +28,7 @@
   color: #61dafb;
 }
 
+<<<<<<< HEAD
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -45,9 +46,10 @@
 
 #img {
     background: url('./yarrow.png');
-
+=======
 #arrow {
     position: absolute;
+>>>>>>> 0afb6ea83b5d5f5ca91cb2c9b4dcba31eac47dfe
     height: 130px;
     width: 130px;
     margin-left: -370px;
