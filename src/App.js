@@ -16,7 +16,9 @@ function App() {
                		<img id="puffle" src={require('./puffle.png')} alt="puffle"/>
                		<p>You haven't eaten anything today...</p>
                	</div>
-               	<div class="box" id="total"></div>
+               	<div class="box" id="total">
+                    <p>TOTAL: 0kcal</p>
+                </div>
             </main>             
         </div>
     );
