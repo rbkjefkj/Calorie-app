@@ -17,7 +17,7 @@ function App() {
                		<p>You haven't eaten anything today...</p>
                	</div>
                	<div class="box" id="total">
-                    <p>TOTAL: 0kcal</p>
+                    <p>TOTAL: <span>0</span> kcal</p>
                 </div>
             </main>             
         </div>
