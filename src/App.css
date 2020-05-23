@@ -5,7 +5,7 @@
     height: 130px;
     width: 130px;
     margin-left: -270px;
-    margin-top: 22px;
+    margin-top: 4vh;
 }
 
 main {
@@ -18,17 +18,42 @@ main {
 }
 
 h1 {
-  margin: 0 auto 0 auto;
+  margin: 0 auto 10px auto;
   font-family: 'Balsamiq Sans', cursive;
+  color: #00e6ac;
 }
 
 .box {
-    background-color: #ffccff;
+    border: 3px solid #99ffff;
+    background-color: hsl(180, 100%, 99%);
     width: 100%;
     height: 60px;
     margin-top: 10px;
     border-radius: 5px;
     font-family: 'Balsamiq Sans', cursive;  
+    display: flex;
+    align-items: center;
+}
+
+.box p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 22px;
+}
+
+#add-new-item {
+    cursor: pointer;    
+} 
+
+#add-new-item p {
+  font-family: 'Lato', sans-serif;
+}
+
+#plus {
+  padding-left: 22px;
+  width: 40px;
+  height: 40px;
 }
 
 .food-container {
@@ -45,20 +70,22 @@ h1 {
   margin: 0 auto 0 auto;
 }  
 
-.food-container p { text-align: center; }
+.food-container p {
+  text-align: center;
+  color: #8c8c8c;
+  font-style: italic;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
 
 #total {
   display: flex;
   align-items: center;
+  background-color: hsl(300, 100%, 98%);
+  border-color: pink;
 } 
 
-#total p {
-    font-size: 25px;
-    font-weight: bold;
-    margin: 0;
-    margin-left: 22px;
-    color: #ff33cc;  
-}
+#total p { color: #ff33cc; }
 
 #total span { color: red; font-size: 30px; }
 
